@@ -1,0 +1,42 @@
+footer {
+    background-image: linear-gradient(to top, var(--cor5), #000);
+    text-align: center;
+    padding: .7em;
+    border-top: 1px solid var(--cor4);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    position: relative;
+    height: 9em;
+    font-family: var(--font-especial);
+}
+
+footer div {
+    display: inline-block;
+}
+
+footer div.dales {
+    display: block;
+}
+
+footer a {
+    margin-top: .3em;
+    display: inline-block;
+    margin-left: .2rem;
+    background-color: var(--cor4);
+    color: var(--cor_3);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    line-height: 2rem;
+    transition: .3s linear;
+}
+
+footer a:hover {
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+
+footer img {
+    border-radius: 50%;
+    width: 32px;
+}

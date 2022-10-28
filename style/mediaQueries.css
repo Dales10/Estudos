@@ -1,0 +1,75 @@
+@media (min-width: 480px) {
+    form.form input.inputPrincipal {
+        width: 14rem;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        position: static;
+        box-shadow: none;
+        border: none;
+    }
+
+    div.menu-bar {
+        display: none;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+
+    nav ul {
+        margin-top: 0;
+        border-bottom: 1px solid var(--cor4);
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li:first-child {
+        margin-left: 1em;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    nav ul li:hover a {
+        margin-left: 0;
+    }
+
+    footer {
+        height: 5em;
+    }
+
+    footer div.escola, footer div.dales {
+        position: absolute;
+        top: .5em;
+    }
+
+    footer div.escola {
+        left: 25%;
+    }
+    
+    footer div.dales {
+        right: 25%;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer div.escola {
+        left: 35%;
+    }
+    
+    footer div.dales {
+        right: 35%;
+    }
+}
